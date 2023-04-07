@@ -1,5 +1,6 @@
 defmodule TempleLiveviewWeb.HeexComponent do
-  use Phoenix.Component
+  use TempleLiveviewWeb, :html
+
 
   def render(assigns) do
     ~H"""

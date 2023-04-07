@@ -87,6 +87,8 @@ defmodule TempleLiveviewWeb do
       import TempleLiveviewWeb.CoreComponents
       import TempleLiveviewWeb.Gettext
 
+      import Temple
+
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS
 
